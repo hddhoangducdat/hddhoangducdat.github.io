@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>PCholic</title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet" />
     <!-- Your custom styles (optional) -->
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet" />
     <style type="text/css">
-
       html,
       body,
       header,
@@ -42,517 +46,617 @@
       }
 
       @media (min-width: 800px) and (max-width: 850px) {
-              .navbar:not(.top-nav-collapse) {
-                  background: #1C2331!important;
-              }
-          }
+        .navbar:not(.top-nav-collapse) {
+          background: #1c2331 !important;
+        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+        <!-- Brand -->
+        <div
+          class="navbar-brand"
+          href="https://mdbootstrap.com/docs/jquery/"
+          target="_blank"
+        >
+          <strong>TEAM13</strong>
+        </div>
 
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
+        <!-- Collapse -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Brand -->
-      <div class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-        <strong>TEAM13</strong>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <div
+                class="nav-link"
+                href="https://mdbootstrap.com/docs/jquery/"
+                target="_blank"
+              >
+                About
+              </div>
+            </li>
+            <li class="nav-item">
+              <div
+                class="nav-link"
+                href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+                target="_blank"
+              >
+                Hello
+              </div>
+            </li>
+            <li class="nav-item">
+              <div
+                class="nav-link"
+                href="https://mdbootstrap.com/education/bootstrap/"
+                target="_blank"
+              >
+                Help
+              </div>
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a
+                href="https://www.facebook.com/hddhoangducdat"
+                class="nav-link"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <div
+                href="https://twitter.com/MDBootstrap"
+                class="nav-link"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://github.com/hddhoangducdat/hddhoangducdat.github.io"
+                class="nav-link border border-light rounded"
+                target="_blank"
+              >
+                <i class="fab fa-github mr-2"></i>Team GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <!-- Navbar -->
 
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!--Carousel Wrapper-->
+    <div
+      id="carousel-example-1z"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+    >
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carousel-example-1z"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
 
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+          <div
+            class="view"
+            style="background-image: url('https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/67570106_346032526308576_7459171867350269952_n.jpg?_nc_cat=109&_nc_oc=AQlVdT1wR_sYpvyVRsjMmWwZSVjl8bvIskitPjhzIv9mOJg4ILw6s3F0EwyxzvWxU5k&_nc_ht=scontent.fsgn3-1.fna&oh=475975d4d6e66b6344a30adc6384a49d&oe=5DE3B82D'); background-repeat: no-repeat; background-size: 105% 150%"
+          >
+            <!-- Mask & flexbox options-->
+            <div
+              class="mask rgba-black-light d-flex justify-content-center align-items-center"
+            >
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 class="mb-4">
+                  <strong>Website Nhóm 13</strong>
+                </h1>
 
-        <!-- Left -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <div class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About</div>
-          </li>
-          <li class="nav-item">
-            <div class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Hello</div>
-          </li>
-          <li class="nav-item">
-            <div class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Help</div>
-          </li>
-        </ul>
-
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="https://www.facebook.com/hddhoangducdat" class="nav-link" target="_blank">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <div href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-              <i class="fab fa-twitter"></i>
+                <a target="_blank" href="" class="btn btn-outline-white btn-lg"
+                  >KỸ NĂNG MỀM
+                  <i class="fas fa-graduation-cap ml-2"></i>
+                </a>
+              </div>
+              <!-- Content -->
             </div>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/hddhoangducdat/hddhoangducdat.github.io" class="nav-link border border-light rounded"
-              target="_blank">
-              <i class="fab fa-github mr-2"></i>Team GitHub
-            </a>
-          </li>
-        </ul>
+            <!-- Mask & flexbox options-->
+          </div>
+        </div>
+        <!--/First slide-->
 
+        <!--Second slide-->
+        <div class="carousel-item">
+          <div
+            class="view"
+            style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/94.jpg'); background-repeat: no-repeat; background-size: cover;"
+          >
+            <!-- Mask & flexbox options-->
+            <div
+              class="mask rgba-black-light d-flex justify-content-center align-items-center"
+            >
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 class="mb-4">
+                  <strong>We're PCholic</strong>
+                </h1>
+
+                <a
+                  target="_blank"
+                  href="https://mdbootstrap.com/education/bootstrap/"
+                  class="btn btn-outline-white btn-lg"
+                  >KỸ NĂNG MỀM
+                  <i class="fas fa-graduation-cap ml-2"></i>
+                </a>
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+        </div>
+        <!--/Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+          <div
+            class="view"
+            style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/92.jpg'); background-repeat: no-repeat; background-size: cover;"
+          >
+            <!-- Mask & flexbox options-->
+            <div
+              class="mask rgba-black-light d-flex justify-content-center align-items-center"
+            >
+              <!-- Content -->
+              <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 class="mb-4">
+                  <strong>Our slogan is</strong>
+                </h1>
+                <h1 class="mb-4">
+                  <strong>"NO PC NO LIFE"</strong>
+                </h1>
+
+                <a
+                  target="_blank"
+                  href="https://mdbootstrap.com/education/bootstrap/"
+                  class="btn btn-outline-white btn-lg"
+                  >KỸ NĂNG MỀM
+                  <i class="fas fa-graduation-cap ml-2"></i>
+                </a>
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+        </div>
+        <!--/Third slide-->
       </div>
+      <!--/.Slides-->
 
+      <!--Controls-->
+      <a
+        class="carousel-control-prev"
+        href="#carousel-example-1z"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carousel-example-1z"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
     </div>
-  </nav>
-  <!-- Navbar -->
+    <!--/.Carousel Wrapper-->
 
-  <!--Carousel Wrapper-->
-  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-    </ol>
-    <!--/.Indicators-->
-
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-
-      <!--First slide-->
-      <div class="carousel-item active">
-        <div class="view" style="background-image: url('https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/67570106_346032526308576_7459171867350269952_n.jpg?_nc_cat=109&_nc_oc=AQlVdT1wR_sYpvyVRsjMmWwZSVjl8bvIskitPjhzIv9mOJg4ILw6s3F0EwyxzvWxU5k&_nc_ht=scontent.fsgn3-1.fna&oh=475975d4d6e66b6344a30adc6384a49d&oe=5DE3B82D'); background-repeat: no-repeat; background-size: 105% 150%">
-
-          <!-- Mask & flexbox options-->
-          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-            <!-- Content -->
-            <div class="text-center white-text mx-5 wow fadeIn">
-              <h1 class="mb-4">
-                <strong>Website Nhóm 13</strong>
-              </h1>
-
-              <a target="_blank" href="" class="btn btn-outline-white btn-lg">KỸ NĂNG MỀM
-                <i class="fas fa-graduation-cap ml-2"></i>
-              </a>
-            </div>
-            <!-- Content -->
-
-          </div>
-          <!-- Mask & flexbox options-->
-
-        </div>
-      </div>
-      <!--/First slide-->
-
-      <!--Second slide-->
-      <div class="carousel-item">
-        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/94.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-          <!-- Mask & flexbox options-->
-          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-            <!-- Content -->
-            <div class="text-center white-text mx-5 wow fadeIn">
-              <h1 class="mb-4">
-                <strong>We're PCholic</strong>
-              </h1>
-
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">KỸ NĂNG MỀM
-                <i class="fas fa-graduation-cap ml-2"></i>
-              </a>
-            </div>
-            <!-- Content -->
-
-          </div>
-          <!-- Mask & flexbox options-->
-
-        </div>
-      </div>
-      <!--/Second slide-->
-
-      <!--Third slide-->
-      <div class="carousel-item">
-        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/92.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-          <!-- Mask & flexbox options-->
-          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-            <!-- Content -->
-            <div class="text-center white-text mx-5 wow fadeIn">
-              <h1 class="mb-4">
-                <strong>Our slogan is</strong>
-              </h1>
-              <h1 class="mb-4">
-                <strong>"NO PC NO LIFE"</strong>
-              </h1>
-
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">KỸ NĂNG MỀM
-                <i class="fas fa-graduation-cap ml-2"></i>
-              </a>
-            </div>
-            <!-- Content -->
-
-          </div>
-          <!-- Mask & flexbox options-->
-
-        </div>
-      </div>
-      <!--/Third slide-->
-
-    </div>
-    <!--/.Slides-->
-
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
-
-  </div>
-  <!--/.Carousel Wrapper-->
-
-  <!--Main layout-->
-  <main>
-    <div class="container">
-
-      <!--Section: Main info-->
-      <section class="mt-5 wow fadeIn">
-
-        <!--Grid row-->
-        <div class="row">
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <img src="img/pic/Tai.jpg" class="img-fluid z-depth-1-half" alt="" width="200px">
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <!-- Main heading -->
-            <h3 class="h3 mb-3">NGUYỄN VĂN TÀI</h3>
-            <p>Thành viên mang mã số sinh viên 1612579 là nhóm trưởng của PCholic.</p>
-            <p>Anh là con người cởi mở, dễ gần, tích cực hộ trỡ, lãnh đạo các thành viên trong nhóm hoàn thành nhiệm vụ.</p>
-            <!-- Main heading -->
-
-      
-            <!-- CTA -->
-            <a target="_blank" href="BLOG/Tai/index.html" class="btn btn-indigo btn-md">BLOG
-              <i class="far fa-image ml-1"></i>
-            </a>
-
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-      </section>
-
-      <hr class="my-5">
-
-      <section class="mt-5 wow fadeIn">
-
+    <!--Main layout-->
+    <main>
+      <div class="container">
+        <!--Section: Main info-->
+        <section class="mt-5 wow fadeIn">
           <!--Grid row-->
           <div class="row">
-  
             <!--Grid column-->
             <div class="col-md-6 mb-4">
-  
-              <img src="img/pic/Nam.jpg" class="img-fluid z-depth-1-half" alt="" width="200px">
-  
+              <img
+                src="img/pic/Tai.jpg"
+                class="img-fluid z-depth-1-half"
+                alt=""
+                width="200px"
+              />
             </div>
             <!--Grid column-->
-  
+
             <!--Grid column-->
             <div class="col-md-6 mb-4">
-  
+              <!-- Main heading -->
+              <h3 class="h3 mb-3">NGUYỄN VĂN TÀI</h3>
+              <p>
+                Thành viên mang mã số sinh viên 1612579 là nhóm trưởng của
+                PCholic.
+              </p>
+              <p>
+                Anh là con người cởi mở, dễ gần, tích cực hộ trỡ, lãnh đạo các
+                thành viên trong nhóm hoàn thành nhiệm vụ.
+              </p>
+              <!-- Main heading -->
+
+              <!-- CTA -->
+              <a
+                target="_blank"
+                href="BLOG/Tai/index.html"
+                class="btn btn-indigo btn-md"
+                >BLOG
+                <i class="far fa-image ml-1"></i>
+              </a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+
+        <hr class="my-5" />
+
+        <section class="mt-5 wow fadeIn">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <img
+                src="img/pic/Nam.jpg"
+                class="img-fluid z-depth-1-half"
+                alt=""
+                width="200px"
+              />
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
               <!-- Main heading -->
               <h3 class="h3 mb-3">Phan Thành Nam</h3>
               <p>Anh vui vẻ, hòa đồng, thẳng thắn.</p>
-              <p>Anh là cái máy đóng góp ý kiến của cả nhóm , những ý tưởng hay đều được anh đóng góp và nghĩ ra.</p>
+              <p>
+                Anh là cái máy đóng góp ý kiến của cả nhóm , những ý tưởng hay
+                đều được anh đóng góp và nghĩ ra.
+              </p>
               <!-- Main heading -->
-  
-        
+
               <!-- CTA -->
-              <a target="_blank" href="BLOG/Nam/index.html" class="btn btn-indigo btn-md">BLOG
+              <a
+                target="_blank"
+                href="BLOG/Nam/index.html"
+                class="btn btn-indigo btn-md"
+                >BLOG
                 <i class="far fa-image ml-1"></i>
               </a>
-  
             </div>
             <!--Grid column-->
-  
           </div>
           <!--Grid row-->
-  
-        </section>
-  
-        <hr class="my-5">
-
-      <section class="mt-5 wow fadeIn">
-
-        <!--Grid row-->
-        <div class="row">
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <img src="img/pic/profile.jpg" class="img-fluid z-depth-1-half" alt="" width="200px">
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <!-- Main heading -->
-            <h3 class="h3 mb-3">HOÀNG ĐỨC ĐẠT</h3>
-            <p>Thành viên mang mã số sinh viên 1712325 là người làm website này.</p>
-            <p>Con người hòa đồng , năng nổ , tích cực tham gia hoạt động nhóm.</p>
-            <!-- Main heading -->
-
-      
-            <!-- CTA -->
-            <a target="_blank" href="BLOG/dat/index.html" class="btn btn-indigo btn-md">BLOG
-              <i class="far fa-image ml-1"></i>
-            </a>
-
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-      </section>
-      <!--Section: Main info-->     
-
-      <hr class="my-5">
-
-      <section class="mt-5 wow fadeIn">
-
-        <!--Grid row-->
-        <div class="row">
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <img src="img/pic/toan.jpg" class="img-fluid z-depth-1-half" alt="" width="200px">
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <!-- Main heading -->
-            <h3 class="h3 mb-3">VƯƠNG HỮU TOÀN</h3>
-            <p>Toàn rất yêu thích công nghệ thông tin cậu tìm hiểu và học thêm rất nhiều những kiến thức liên quan tới chuyên ngành</p>
-            <p>Là một trong 2 người làm video của nhóm.</p>
-            <p>Là con người cởi mở , dễ gần , nhanh trí và có nhiều đóng góp cho nhóm.</p>
-            <!-- Main heading -->
-
-      
-            <!-- CTA -->
-            <a target="_blank" href="BLOG/Toan/index.html" class="btn btn-indigo btn-md">BLOG
-              <i class="far fa-image ml-1"></i>
-            </a>
-
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-      </section>
-
-
-      <hr class="my-5">
-
-      <section class="mt-5 wow fadeIn">
-
-          <!--Grid row-->
-          <div class="row">
-  
-            <!--Grid column-->
-            <div class="col-md-6 mb-4">
-  
-              <img src="img/pic/Trieu.jpg" class="img-fluid z-depth-1-half" alt="" width="200px">
-  
-            </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-md-6 mb-4">
-  
-              <!-- Main heading -->
-              <h3 class="h3 mb-3">NGUYỄN QUỐC ĐÔNG TRIỀU</h3>
-              <p>Là một thành viên làm việc thầm kín, hoàn thành tốt ,nhanh các công việc của mình</p>
-              <p>Bạn tích cực làm việc , đóng góp ý kiến cho nhóm , lên kế hoạc ý tưởng cho đề tài.</p>
-              <!-- Main heading -->
-  
-        
-              <!-- CTA -->
-              <a target="_blank" href="BLOG/Trieu/index.html" class="btn btn-indigo btn-md">BLOG
-                <i class="far fa-image ml-1"></i>
-              </a>
-  
-            </div>
-            <!--Grid column-->
-  
-          </div>
-          <!--Grid row-->
-  
         </section>
 
-
-        <hr class="my-5">
+        <hr class="my-5" />
 
         <section class="mt-5 wow fadeIn">
-            <div class="my-5 h3 text-center font-weight-bold" style="color: rgb(80, 30, 30); size: 5rem">SẢN PHẨM NGHIÊN CỨU</div>
           <!--Grid row-->
           <div class="row">
-  
             <!--Grid column-->
             <div class="col-md-6 mb-4">
-  
-              <img src="img/ad.png" class="img-fluid z-depth-1-half" alt="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/67568724_400764513978746_511124588810207232_n.png?_nc_cat=102&_nc_oc=AQlQMra7ZYdAgr702RRq4iwHOd2u_eLmlPCSkG0k5ucMRXNBfhaWKhSq83_zJh3Dndo&_nc_ht=scontent.fsgn8-1.fna&oh=e2267eb8d9a7ee7d1068325f4d5042c3&oe=5DE8CA9A" />
-  
+              <img
+                src="img/pic/profile.jpg"
+                class="img-fluid z-depth-1-half"
+                alt=""
+                width="200px"
+              />
             </div>
             <!--Grid column-->
-  
+
             <!--Grid column-->
             <div class="col-md-6 mb-4">
-  
               <!-- Main heading -->
-              <iframe 
-                width="560" height="315" 
-                src="https://www.youtube.com/embed/5QBb1ctgzIg"
+              <h3 class="h3 mb-3">HOÀNG ĐỨC ĐẠT</h3>
+              <p>
+                Thành viên mang mã số sinh viên 1712325 là người làm website
+                này.
+              </p>
+              <p>
+                Con người hòa đồng , năng nổ , tích cực tham gia hoạt động nhóm.
+              </p>
+              <!-- Main heading -->
+
+              <!-- CTA -->
+              <a
+                target="_blank"
+                href="BLOG/dat/index.html"
+                class="btn btn-indigo btn-md"
+                >BLOG
+                <i class="far fa-image ml-1"></i>
+              </a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!--Section: Main info-->
+
+        <hr class="my-5" />
+
+        <section class="mt-5 wow fadeIn">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <img
+                src="img/pic/toan.jpg"
+                class="img-fluid z-depth-1-half"
+                alt=""
+                width="200px"
+              />
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <!-- Main heading -->
+              <h3 class="h3 mb-3">VƯƠNG HỮU TOÀN</h3>
+              <p>
+                Toàn rất yêu thích công nghệ thông tin cậu tìm hiểu và học thêm
+                rất nhiều những kiến thức liên quan tới chuyên ngành
+              </p>
+              <p>Là một trong 2 người làm video của nhóm.</p>
+              <p>
+                Là con người cởi mở , dễ gần , nhanh trí và có nhiều đóng góp
+                cho nhóm.
+              </p>
+              <!-- Main heading -->
+
+              <!-- CTA -->
+              <a
+                target="_blank"
+                href="BLOG/Toan/index.html"
+                class="btn btn-indigo btn-md"
+                >BLOG
+                <i class="far fa-image ml-1"></i>
+              </a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+
+        <hr class="my-5" />
+
+        <section class="mt-5 wow fadeIn">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <img
+                src="img/pic/Trieu.jpg"
+                class="img-fluid z-depth-1-half"
+                alt=""
+                width="200px"
+              />
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <!-- Main heading -->
+              <h3 class="h3 mb-3">NGUYỄN QUỐC ĐÔNG TRIỀU</h3>
+              <p>
+                Là một thành viên làm việc thầm kín, hoàn thành tốt ,nhanh các
+                công việc của mình
+              </p>
+              <p>
+                Bạn tích cực làm việc , đóng góp ý kiến cho nhóm , lên kế hoạc ý
+                tưởng cho đề tài.
+              </p>
+              <!-- Main heading -->
+
+              <!-- CTA -->
+              <a
+                target="_blank"
+                href="BLOG/Trieu/index.html"
+                class="btn btn-indigo btn-md"
+                >BLOG
+                <i class="far fa-image ml-1"></i>
+              </a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+
+        <hr class="my-5" />
+
+        <section class="mt-5 wow fadeIn">
+          <div
+            class="my-5 h3 text-center font-weight-bold"
+            style="color: rgb(80, 30, 30); size: 5rem"
+          >
+            SẢN PHẨM NGHIÊN CỨU
+          </div>
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <img
+                src="img/ad.png"
+                class="img-fluid z-depth-1-half"
+                alt="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/67568724_400764513978746_511124588810207232_n.png?_nc_cat=102&_nc_oc=AQlQMra7ZYdAgr702RRq4iwHOd2u_eLmlPCSkG0k5ucMRXNBfhaWKhSq83_zJh3Dndo&_nc_ht=scontent.fsgn8-1.fna&oh=e2267eb8d9a7ee7d1068325f4d5042c3&oe=5DE8CA9A"
+              />
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <!-- Main heading -->
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/K-EbHz_CQT8"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-              >
-              </iframe>
+              ></iframe>
 
               <div class="my-2">
                 <h3 class="h3 mb-2">VIDEO ĐỒ ÁN</h3>
                 <h5>Mạng xã hội - Con dao hai lưỡi (PCholic)</h5>
                 <p class="mb-3" style="color: rgb(97, 93, 93)">
-                  Description: Video kể về một nhân viên công sở sử dụng mạng xã hội một cách tiêu
-                  cực. Sau khi trải qua một cơn ác mộng đã làm anh thức tỉnh và sử dụng mạng xã hội đúng cách. Ngoài ra trong video còn có 
-                  những chia sẻ từ những người mà nhóm đã phỏng vấn để biết thêm cách sử mạng xã hội một cách hợp lý.
+                  Description: Video kể về một nhân viên công sở sử dụng mạng xã
+                  hội một cách tiêu cực. Sau khi trải qua một cơn ác mộng đã làm
+                  anh thức tỉnh và sử dụng mạng xã hội đúng cách. Ngoài ra trong
+                  video còn có những chia sẻ từ những người mà nhóm đã phỏng vấn
+                  để biết thêm cách sử mạng xã hội một cách hợp lý.
                 </p>
               </div>
 
               <div class="my-2">
-                  <h3 class="h3 mb-2">
-                    POWERPOINT       
-                    <a style="margin-left: 4rem;" target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcdn.fbsbx.com%2Fv%2Ft59.2708-21%2F64352774_335364394019971_1208412718294368256_n.pptx%2FPP-MXH.pptx%3F_nc_cat%3D102%26_nc_oc%3DAQmMiVMTs2GzqZA1mnEexp5Pz8kIZqL3e3COzHZneg-ACx-lJWv9zEFUXdBLkq0RQBM%26_nc_ht%3Dcdn.fbsbx.com%26oh%3Dc8a1c09c8bf60b9cf0d5563d7a9cb02a%26oe%3D5D4ACF13%26dl%3D1%26fbclid%3DIwAR3rjkDtKtmg0iL0GIdNJkSNT9jV3YWZWqKde3SOsIQ_v7-3zHyZJI7JLNM&h=AT28n8j3TiKjkx8EU8KlwKL3hxb3NRSpf8iMGbVMu9vk0I9gWllFcmAaOijwlTBZGncWzmn076wn_0xLMWwaS04589vE-_9GJW-Ux43RSllrdPMvnRSAFKWWrHf0ivoFsEdkZlVo" class="btn btn-indigo btn-md">Download
-                      <i class="fas fa-download ml-1"></i>  
-                    </a>           
-                  </h3>
-                  
-                 
-                </div>
+                <h3 class="h3 mb-2">
+                  POWERPOINT
+                  <a
+                    style="margin-left: 4rem;"
+                    target="_blank"
+                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcdn.fbsbx.com%2Fv%2Ft59.2708-21%2F64352774_335364394019971_1208412718294368256_n.pptx%2FPP-MXH.pptx%3F_nc_cat%3D102%26_nc_oc%3DAQmMiVMTs2GzqZA1mnEexp5Pz8kIZqL3e3COzHZneg-ACx-lJWv9zEFUXdBLkq0RQBM%26_nc_ht%3Dcdn.fbsbx.com%26oh%3Dc8a1c09c8bf60b9cf0d5563d7a9cb02a%26oe%3D5D4ACF13%26dl%3D1%26fbclid%3DIwAR3rjkDtKtmg0iL0GIdNJkSNT9jV3YWZWqKde3SOsIQ_v7-3zHyZJI7JLNM&h=AT28n8j3TiKjkx8EU8KlwKL3hxb3NRSpf8iMGbVMu9vk0I9gWllFcmAaOijwlTBZGncWzmn076wn_0xLMWwaS04589vE-_9GJW-Ux43RSllrdPMvnRSAFKWWrHf0ivoFsEdkZlVo"
+                    class="btn btn-indigo btn-md"
+                    >Download
+                    <i class="fas fa-download ml-1"></i>
+                  </a>
+                </h3>
+              </div>
 
-                <div class="mb-3"></div>
+              <div class="mb-3"></div>
 
-                <div class="my-2">
-                    <h3 class="h3 mb-2">NHIỆM VỤ TỪNG THÀNH VIÊN</h3>
-                    <h6>Nguyễn Văn Tài: Nhóm trưởng , poster</h6>
-                    <h6>Hoàng Đức Đạt: Website nhóm</h6>
-                    <h6>Phan Thành Nam: Lấy thông tin, làm powerpoint</h6>
-                    <h6>Vương Hữu Toàn: Video</h6>
-                    <h6>Nguyễn Quốc Đông Triều: Video</h6>
-                </div>
+              <div class="my-2">
+                <h3 class="h3 mb-2">NHIỆM VỤ TỪNG THÀNH VIÊN</h3>
+                <h6>Nguyễn Văn Tài: Nhóm trưởng , poster</h6>
+                <h6>Hoàng Đức Đạt: Website nhóm</h6>
+                <h6>Phan Thành Nam: Lấy thông tin, làm powerpoint</h6>
+                <h6>Vương Hữu Toàn: Video</h6>
+                <h6>Nguyễn Quốc Đông Triều: Video</h6>
+              </div>
               <!-- Main heading -->
-  
             </div>
             <!--Grid column-->
-  
           </div>
           <!--Grid row-->
-  
         </section>
-      
-    </div>
-  </main>
-  <!--Main layout-->
-
-  <!--Footer-->
-  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
-
-    <!--Call to action-->
-    <div class="pt-4">
-      <div class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">ĐẠI HỌC KHOA HỌC TỰ NHIÊN
-        <i class="fas fa-graduation-cap ml-2"></i>
       </div>
-    </div>
-    <!--/.Call to action-->
+    </main>
+    <!--Main layout-->
 
-    <hr class="my-2">
+    <!--Footer-->
+    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+      <!--Call to action-->
+      <div class="pt-4">
+        <div
+          class="btn btn-outline-white"
+          href="https://mdbootstrap.com/education/bootstrap/"
+          target="_blank"
+          role="button"
+        >
+          ĐẠI HỌC KHOA HỌC TỰ NHIÊN
+          <i class="fas fa-graduation-cap ml-2"></i>
+        </div>
+      </div>
+      <!--/.Call to action-->
 
-    <!-- Social icons -->
-    <div class="pb-4">
-      <a href="https://www.facebook.com/hddhoangducdat" target="_blank">
-        <i class="fab fa-facebook-f mr-3"></i>
-      </a>
+      <hr class="my-2" />
 
-      <a href="https://twitter.com/MDBootstrap" target="_blank">
-        <i class="fab fa-twitter mr-3"></i>
-      </a>
+      <!-- Social icons -->
+      <div class="pb-4">
+        <a href="https://www.facebook.com/hddhoangducdat" target="_blank">
+          <i class="fab fa-facebook-f mr-3"></i>
+        </a>
 
-      <a href="https://www.youtube.com/watch?v=5QBb1ctgzIg" target="_blank">
-        <i class="fab fa-youtube mr-3"></i>
-      </a>
+        <a href="https://twitter.com/MDBootstrap" target="_blank">
+          <i class="fab fa-twitter mr-3"></i>
+        </a>
 
-      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-        <i class="fab fa-google-plus-g mr-3"></i>
-      </a>
+        <a href="https://www.youtube.com/watch?v=5QBb1ctgzIg" target="_blank">
+          <i class="fab fa-youtube mr-3"></i>
+        </a>
 
-      <a href="https://dribbble.com/mdbootstrap" target="_blank">
-        <i class="fab fa-dribbble mr-3"></i>
-      </a>
+        <a
+          href="https://plus.google.com/u/0/b/107863090883699620484"
+          target="_blank"
+        >
+          <i class="fab fa-google-plus-g mr-3"></i>
+        </a>
 
-      <a href="https://pinterest.com/mdbootstrap" target="_blank">
-        <i class="fab fa-pinterest mr-3"></i>
-      </a>
+        <a href="https://dribbble.com/mdbootstrap" target="_blank">
+          <i class="fab fa-dribbble mr-3"></i>
+        </a>
 
-      <a href="https://github.com/hddhoangducdat/PCholic" target="_blank">
-        <i class="fab fa-github mr-3"></i>
-      </a>
+        <a href="https://pinterest.com/mdbootstrap" target="_blank">
+          <i class="fab fa-pinterest mr-3"></i>
+        </a>
 
-      <a href="http://codepen.io/mdbootstrap/" target="_blank">
-        <i class="fab fa-codepen mr-3"></i>
-      </a>
-    </div>
-    <!-- Social icons -->
+        <a href="https://github.com/hddhoangducdat/PCholic" target="_blank">
+          <i class="fab fa-github mr-3"></i>
+        </a>
 
-    <!--Copyright-->
-    <div class="footer-copyright py-3">
-      © 2019 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
-    </div>
-    <!--/.Copyright-->
+        <a href="http://codepen.io/mdbootstrap/" target="_blank">
+          <i class="fab fa-codepen mr-3"></i>
+        </a>
+      </div>
+      <!-- Social icons -->
 
-  </footer>
-  <!--/.Footer-->
+      <!--Copyright-->
+      <div class="footer-copyright py-3">
+        © 2019 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank">
+          MDBootstrap.com
+        </a>
+      </div>
+      <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
@@ -563,11 +667,10 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-      <!-- Initializations -->
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
-  </script>
-</body>
-
+    <!-- Initializations -->
+    <script type="text/javascript">
+      // Animations initialization
+      new WOW().init();
+    </script>
+  </body>
 </html>
